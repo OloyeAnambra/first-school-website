@@ -1,0 +1,212 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-size: 16px;
+}
+header{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./images/desktop\ classroom.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  
+}
+.container{
+  width: 100%;
+  margin: auto;
+  padding: 0 50px;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+.logo span{
+  color: #fd5353; 
+}
+.logo{
+  font-size: 2rem;
+  font-family: sans-serif;
+  font-weight: 600;
+  color: #fff;
+}
+.navlinks{
+  display: flex;
+  align-items: center;
+  font-family: sans-serif;
+  font-weight: 500;
+}
+.navlinks li{
+  margin: 0 20px;
+  list-style: none;
+  text-transform: capitalize;
+}
+.navlinks li a{
+  text-decoration: none;
+  color: #fff;
+}
+.navlinks li a:hover{
+  border-bottom: 2px solid #fd5353;
+  padding-bottom: 0.5rem;
+}
+.headerinfo{
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+
+h2{
+  font-size: 2rem;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+  font-family: sans-serif;
+}
+h1{
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-family: sans-serif;
+  line-height: 2rem;
+  word-spacing: 0.1rem;
+}
+.btn{
+  padding: 8px 15px;
+  background: #fd5353;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 1rem;
+  font-family: sans-serif;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  margin-left: 160px;
+}
+/* =====================about section starts================= */
+.about-section{
+  margin: 100px;
+  width: 100%;
+  height: 80vh;
+}
+.about-flex{
+  display: flex;
+  /* margin: 120px; */
+}
+.about-image{
+  width: 400px;
+  height: 400px;
+  background-image: url(./images/study\ group.jpg);
+  background-size: cover;
+  background-position: center;
+  object-fit: contain;
+}
+.about-image img{
+  width: 500px;
+  height: 500px;
+}
+.about-content{
+  width: 50%;
+  height: 50px;
+  margin-left:50px;
+  padding-top: 50px;
+}
+.about-content h4{
+  font-size: 20px;
+  line-height: 2px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+  color: #fd5353;
+}
+.about-content h5{
+  font-size: 30px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+.about-content p{
+  font-size: 16px;
+  font-weight: 500;
+  /* letter-spacing: 2px; */
+  margin-top: 35px;
+}
+/* ============================box section start============================= */
+.box{
+  background: #ccc;
+  width: 32.5%;
+  height: 50vh;
+  display: inline-block;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+  padding: 20px;
+}
+.box-text{
+  margin-top:30px ;
+  text-align: center;
+  font-size: 16px;
+  line-height: 2;
+}
+/* ===============================bolg section starts================== */
+.blog-section{
+  margin: 100px;
+  width: 100%;
+  height: 80vh;
+}
+.blog-flex{
+  display: flex;
+  /* margin: 120px; */
+}
+.blog-image{
+  width: 400px;
+  height: 400px;
+  background-image: url(./images/graduation.avif);
+  background-size: cover;
+  background-position: center;
+  object-fit: contain;
+}
+.blog-image img{
+  width: 500px;
+  height: 500px;
+}
+.blog-content{
+  width: 50%;
+  height: 50px;
+  margin-left:50px;
+  padding-top: 50px;
+}
+.blog-content h4{
+  font-size: 20px;
+  line-height: 2px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+  color: #fd5353;
+}
+.blog-content h5{
+  font-size: 30px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+.blog-content p{
+  font-size: 16px;
+  font-weight: 500;
+  /* letter-spacing: 2px; */
+  margin-top: 35px;
+}
+/* =================================footer section start=================== */
+ #footer{
+  color: black;
+  background: #ccc;
+  text-align: center;
+  height: 20vh;
+  width: auto;
+}
+#footer p{
+  text-align: center;
+  font-size: 18px;
+  padding-top: 30px;
+  font-family: sans-serif;
+}
